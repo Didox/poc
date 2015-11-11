@@ -1,0 +1,79 @@
+Passo a passo para fazer o fork (se estiver algo errado perdão, sou iniciante kk)
+
+Configurando o Sublime - 
+
+Passo 1 -
+Abra o terminal (prompt de comando)
+Entre com o comando "which subl" para descobrir o diretorio do sublime(na maioria dos casos ele estará em "usr/bin/subl");
+Apos descorbrir o diretório do sublime entre com o comando "vi ~/.bash_profile" ou "vi ~/.bashrc";
+O terminal entrara em outra interface, entre com o comando "alias "sublime= /usr/bin/subl" (LEMBRE-SE QUE O DIRETORIO TALVEZ NÃO SEJA ESSE, BASTA ALTERAR);
+Se tudo der certo seu sublime estara configurado para abrir pelo terminal com o comando "sublime .", teste!!
+
+FORK -
+
+Dica crie uma pasta como projeto para salvar o fork dentro.
+
+PASSO 1 - configurando a SSH key -
+
+Vá para o seu perfil no git hub(your profile) e procure a opção "SSH keys";
+No Terminal(prompt de comando) digite o seguinte comando "ssh-keygen" e confirme as opções;
+Apos aparecer "The key's randomart image is:" entre com o comando "cat ~/.ssh/id_rsa.pub", em seguida irá aparecer sua chave, copie (inclusive o ssh-rsa);
+Volte ao github e escreva seu nome e embaixo cole sua key, clique em add key;
+pronto sua chave está configurada.
+
+
+PASSO 2 - obtendo o fork(Clone)
+
+Entre no Github;
+Procure o projeto que deseja fazer o fork(no caso o poc do didox) e clique em fork (superior direito da pagina);
+Procure um pequeno SSH (direito inferior da pagina), isso irá alterar um endereço acima dele, copie;
+Vá para o terminal e digite o comando "git clone" e cole o endereço copiado pelo github, (o comando ficará parecido com esse "git clone git@github.com:toncorrea/poc.git");
+Apos isso entre com o comando "git branch" para ter certeza que você está na branch master
+
+"Porque precisa estar na master?
+
+Por convenção, o git utiliza a branch master como padrão, para o código estável do projeto. Então, tudo o que estiver nessa branch, em qualquer repositório, teóricamente é código estável. Logo, você nunca irá mexer diretamente nela, mas em outras branchs, para então fazer merge com a master.(essa eu copiei :D)"
+
+Após verificar se você está na branch "master" vamos criar a nossa com o comando "git checkout -b nomeDaNovaBranch"
+
+PASSO 3 - Alterando os arquivos da pasta POC
+
+Vá para o terminal e dentro do diretorio do projeto use o comando "Sublime ."
+Nessa etapa é onde você irá alterar (colaborar) com o projeto, crie pastas ou faça alterações no projeto;
+Após terminar salve o projeto;
+Vá para o terminal e use o comando "git status" para ver as novas alterções no projeto (as pastas em vermelho);
+Terminada as alterações use o comando "git add ." para adicionar as novas pastas e alterações;
+Reutilize novamente o comando "git status" para ter certeza que ela foi adicionada ao projeto(as pastas estarão em verde)
+
+PASSO 4 - Encerrando a edição (Commit)
+
+Vá ao terminal e ultilize o comando " commit -m "MENSAGEM SOBRE A ALTERAÇÃO" ";
+Se aparecer esta mensagem:
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+Basta inserir seu email e nome como nos comandos acima;
+Após feito, basta entrar novamente com o comando " commit -m "MENSAGEM SOBRE A ALTERAÇÃO" ";
+
+PASSO 5 - Enviando arquivos ao seu repositorio.
+
+Após usar o comando "commit" entre com o comando "sublime .git/conf";
+
+Altere a linha - " url = git@github.com:Didox/poc.git " pelo endereço do seu diretorio no github (SSH - direita,inferior da tela)
+                 " url = git@github.com:hlyras/poc.git"
+
+Para enviar as alterações para o seu repositorio basta usar o comando "git push";
+Apos isso os arquivos foram jogados no seu repositorio
+
+PASSO 6 - Fazendo um pull request
+
+A maneira que eu encontrei para fazer o pull request foi a seguinte: (não sei se está 100% certa mas funcionou, depois o danilo confere)
+
+Agora após seguir todos os passos acima, basta entrar no Github e abrir a opção para fazer o pull request(um icone verde ao lado do branch).
+
+that's all folks.
