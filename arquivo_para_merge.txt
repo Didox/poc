@@ -2,3 +2,7 @@ Amilton Corrêa. - fazendo teste de merge.
 Henrique Lyra
 pc
 mais um teste para reforçar conhecimento.
+teste 2
+EDIT
+edit 2
+-esta tem que ser a versão final
