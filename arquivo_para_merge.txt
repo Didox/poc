@@ -1,15 +1,1 @@
-Amilton Corrêa. - fazendo teste de merge.
-Henrique Lyra
-testando o merge Head 
-pc
-mais um teste para reforçar conhecimento.
-teste 2
-EDIT
-edit 2
-merge para o sublime
-
- faz o push do arquivo dele.
--esta tem que ser a versão final
-EDIT
-edit 2
-novas edições enquanto o paulo faz o push do arquivo dele.
+Clean
