@@ -4,4 +4,6 @@ testando o merge Head ===
 pc
 EDIT
 edit 2
-novas edições enquanto o paulo faz o push do arquivo dele.
+merge para o sublime
+
+ faz o push do arquivo dele.
