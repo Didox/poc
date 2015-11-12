@@ -1,6 +1,7 @@
 Amilton Corrêa. - fazendo teste de merge.
 Henrique Lyra
+testando o merge Head ===
 pc
-teste 2
 EDIT
 edit 2
+novas edições enquanto o paulo faz o push do arquivo dele.
