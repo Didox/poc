@@ -13,3 +13,4 @@ novas edições enquanto o paulo faz o push do arquivo dele.
 
 ****  estas alterações estou fazendo do meu branch - " alteracoes_ton"
 
+Clean
