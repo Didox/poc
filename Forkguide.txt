@@ -1,4 +1,4 @@
-Passo a passo para fazer o fork (se estiver algo errado perdão, sou iniciante kk)
+Passo a passo para fazer o fork
 
 Configurando o Sublime - 
 
@@ -29,12 +29,6 @@ Procure o projeto que deseja fazer o fork(no caso o poc do didox) e clique em fo
 Procure um pequeno SSH (direito inferior da pagina), isso irá alterar um endereço acima dele, copie;
 Vá para o terminal e digite o comando "git clone" e cole o endereço copiado pelo github, (o comando ficará parecido com esse "git clone git@github.com:toncorrea/poc.git");
 Apos isso entre com o comando "git branch" para ter certeza que você está na branch master
-
-"Porque precisa estar na master?
-
-Por convenção, o git utiliza a branch master como padrão, para o código estável do projeto. Então, tudo o que estiver nessa branch, em qualquer repositório, teóricamente é código estável. Logo, você nunca irá mexer diretamente nela, mas em outras branchs, para então fazer merge com a master.(essa eu copiei :D)"
-
-Após verificar se você está na branch "master" vamos criar a nossa com o comando "git checkout -b nomeDaNovaBranch"
 
 PASSO 3 - Alterando os arquivos da pasta POC
 
@@ -67,12 +61,11 @@ Após usar o comando "commit" entre com o comando "sublime .git/conf";
 Altere a linha - " url = git@github.com:Didox/poc.git " pelo endereço do seu diretorio no github (SSH - direita,inferior da tela)
                  " url = git@github.com:hlyras/poc.git"
 
-Para enviar as alterações para o seu repositorio basta usar o comando "git push";
+Para enviar as alterações para o seu repositorio faça uma ultima verificação para ter certeza que nenhum arquivo foi alterado enquanto você estava trabalhando com o comando "git pull", se tudo estiver ok entre o comando "git push";
 Apos isso os arquivos foram jogados no seu repositorio
 
 PASSO 6 - Fazendo um pull request
 
-A maneira que eu encontrei para fazer o pull request foi a seguinte: (não sei se está 100% certa mas funcionou, depois o danilo confere)
 
 Agora após seguir todos os passos acima, basta entrar no Github e abrir a opção para fazer o pull request(um icone verde ao lado do branch).
 
