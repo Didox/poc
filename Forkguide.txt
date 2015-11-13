@@ -11,7 +11,7 @@ Se tudo der certo seu sublime estara configurado para abrir pelo terminal com o 
 
 FORK -
 
-Dica crie uma pasta como projeto para salvar o fork dentro.
+Dica: crie uma pasta como projeto para clonar o fork.
 
 PASSO 1 - configurando a SSH key -
 
