@@ -3,7 +3,10 @@ com BRANCH.
 sexta-feira 13.
 
 Alterações no branch alteracoes_Henrique
-<<<<<<< HEAD
+
+Ultima alteração 23:02
+Ultima alteração 23:12
+>>>>>>> master
 
 Amilton Corrêa - 23:14:00 ***************
 ----------------------------
