@@ -3,9 +3,11 @@ com BRANCH.
 sexta-feira 13.
 
 Alterações no branch alteracoes_Henrique
+<<<<<<< HEAD
 
 Amilton Corrêa - 23:05:00
-
+----------------------------
+Ultima alteração 23:02
 
 ****  estas alterações estou fazendo do meu branch - " alteracoes_ton"
 
