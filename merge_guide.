@@ -1,0 +1,23 @@
+Merge de um branch para o branch master.
+
+1 PASSO - 
+Vá para o seu branch com o comando "git checkout nomeDoBrach";
+Altere os arquivos;
+git status para ver se os arquivos estão diferentes;
+se estiver em vermelho "git add ."; 
+git commit -m "alteração";
+git push origin nomeDoBranch; - 
+git status; 
+git checkout master
+git pull
+git checkout nomeDoBranch
+git merge master;
+git add .
+git commit -m "alteração"
+git checkout master
+git branch
+git merge nomeDoBranch
+git status
+sublime .
+git pull
+git push
