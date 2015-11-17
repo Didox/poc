@@ -12,12 +12,18 @@ git checkout master
 git pull
 git checkout nomeDoBranch
 git merge master;
+resolver os conflutos, depois
 git add .
 git commit -m "alteração"
+git push origin nomeDoBranch
 git checkout master
 git branch
 git merge nomeDoBranch
 git status
+resolver os conflutos, depois
+git add .
+git commit -m "alteração"
+git push
 sublime .
 git pull
 git push
