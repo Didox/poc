@@ -8,4 +8,6 @@
 	alert("Terceira Alteracao");
 
 	alert("Alteracao para meu branch");
+
+	alert("Merge de brach para branch master");
 </script>
