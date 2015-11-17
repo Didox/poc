@@ -1,5 +1,7 @@
 <script>
-	alert("Primeira alteracao");
+	alert("Primeira Alteracao");
 
 	alert("Segunda Alteracao");
+
+	alert("Terceira Alteracao");
 </script>
