@@ -2,6 +2,8 @@
 	alert("Primeira Alteracao");
 
 	alert("Segunda Alteracao");
+	
+	alteração surpresa!
 
 	alert("Terceira Alteracao");
 </script>
