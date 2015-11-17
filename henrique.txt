@@ -1,3 +1,4 @@
 henrique
 
 git add --ignore-removal Forkguide nome_da_pasta_removida
+edição para teste
